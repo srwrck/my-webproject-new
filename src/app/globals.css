@@ -1,26 +1,14 @@
-@import "tailwindcss";
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+ background: radial-gradient(circle at 20% 30%, #4f9dd9, transparent 60%),
+              radial-gradient(circle at 80% 20%, #f06a46, transparent 60%),
+              radial-gradient(circle at 70% 80%, #e2c73c, transparent 60%),
+              radial-gradient(circle at 10% 60%, #2c642e, transparent 60%);
+  background-blend-mode: screen;
+  filter: blur(30px);  color: #1f2937; /* Tailwind's text-gray-800 */
+  background-attachment: fixed;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
