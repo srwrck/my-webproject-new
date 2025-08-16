@@ -1,13 +1,8 @@
-import Greeting from '@/components/Greeting';
-
+import Navbar from '@/components/layout/Navbar/Navbar';
 function HomePage() {
   return (
     <div>
-      <h1>สวัสดีชาวโลก!</h1>
-      
-      <Greeting name="ทีมพัฒนา" />
-
-      <Greeting name="คุณลูกค้า" />
+      <Navbar/>
     </div>
   );
 }

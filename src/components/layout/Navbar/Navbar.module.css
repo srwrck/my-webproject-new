@@ -1,0 +1,15 @@
+/* .containerNav {
+  @apply bg-white shadow px-6 py-4 flex items-center justify-between;
+}
+
+.title {
+  @apply text-xl font-bold text-blue-700;
+}
+
+.navLinks {
+  @apply flex;
+}
+
+.navLink {
+  @apply text-gray-700 hover:text-blue-500 transition-colors;
+} */

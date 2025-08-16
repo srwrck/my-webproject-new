@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body{
   margin: 0;
   padding: 0;
@@ -8,7 +12,7 @@ body{
               radial-gradient(circle at 70% 80%, #e2c73c, transparent 60%),
               radial-gradient(circle at 10% 60%, #2c642e, transparent 60%);
   background-blend-mode: screen;
-  filter: blur(30px);  color: #1f2937; /* Tailwind's text-gray-800 */
+  color: #1f2937; /* Tailwind's text-gray-800 */
   background-attachment: fixed;
-
+  color: #1f2937;
 }
